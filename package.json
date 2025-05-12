@@ -1,0 +1,16 @@
+{
+    "name": "vercel-blob-downloader",
+    "version": "1.0.0",
+    "description": "Script to download all folders and files from Vercel Blob storage locally.",
+    "type": "module",
+    "main": "download-vercel-blobs.js",
+    "scripts": {
+        "start": "node download-vercel-blobs.js"
+    },
+    "author": "Matteo Subet aka Zumat",
+    "license": "MIT",
+    "dependencies": {
+        "@vercel/blob": "^0.27.3",
+        "inquirer": "^12.5.0"
+    }
+}
